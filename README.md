@@ -1,5 +1,5 @@
 # archivematica-pbcore
-Adds support for Pbcore format for metadata cvs imports in to archivematic 1.4.1.<br>
+Adds support for Pbcore format for metadata csv imports in to archivematic 1.4.1.<br>
 https://github.com/artefactual/archivematica
 
 
@@ -14,7 +14,7 @@ then restart apache<br>
 <h2>Instructions for importing</h2>
 https://www.archivematica.org/en/docs/archivematica-1.4/user-manual/transfer/import-metadata/#import-metadata<br>
 
-Your metadata.cvs should contain pbcore elements in the first row<br>
+Your metadata.csv should contain pbcore elements in the first row<br>
 http://pbcore.org/elements/<br>
 example: pbcore.title,pbcore.subject,etc<br>
 
