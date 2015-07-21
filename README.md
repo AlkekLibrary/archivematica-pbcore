@@ -1,5 +1,7 @@
 # archivematica-pbcore
-Adds support for Pbcore format for metadata cvs imports.
+Adds support for Pbcore format for metadata cvs imports in to archivematic.<br>
+https://github.com/artefactual/archivematica
+
 
 <h2>Install </h2>
 Just replace these files<br>
