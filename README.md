@@ -17,3 +17,8 @@ http://pbcore.org/elements/<br>
 example: pbcore.title,pbcore.subject,etc<br>
 
 
+<h2>Know issues</h2>
+This script only supports main elements<br> 
+sub-elements such as "essenceTrackType" will not be nested.
+
+
