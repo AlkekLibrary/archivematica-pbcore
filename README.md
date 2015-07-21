@@ -1,5 +1,5 @@
 # archivematica-pbcore
-Adds support for Pbcore format for metadata cvs imports in to archivematic.<br>
+Adds support for Pbcore format for metadata cvs imports in to archivematic 1.4.1.<br>
 https://github.com/artefactual/archivematica
 
 
@@ -19,7 +19,7 @@ http://pbcore.org/elements/<br>
 example: pbcore.title,pbcore.subject,etc<br>
 
 
-<h2>Know issues</h2>
+<h2>Limitations</h2>
 This script only supports main elements<br> 
 sub-elements such as "essenceTrackType" will not be nested.
 
