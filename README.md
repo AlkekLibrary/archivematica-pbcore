@@ -3,12 +3,14 @@ Adds support for Pbcore format for metadata csv imports in to archivematic 1.4.1
 https://github.com/artefactual/archivematica
 
 
-<h2>Install </h2>
-Just replace these files<br>
-/usr/lib/archivematica/MCPClient/clientScripts/archivematicaXMLNamesSpace.py<br>
-/usr/lib/archivematica/MCPClient/clientScripts/archivematicaCreateMETS2.py<br>
+<h2>Installation </h2>
+Replace these files<br>
+<pre><code>/usr/lib/archivematica/MCPClient/clientScripts/archivematicaXMLNamesSpace.py
+/usr/lib/archivematica/MCPClient/clientScripts/archivematicaCreateMETS2.py
+</code>
+</pre>
 then restart apache<br>
-/etc/init.d/apache2 restart<br>
+<pre><code>/etc/init.d/apache2 restart</code></pre>
 
 
 <h2>Instructions for importing</h2>
@@ -16,7 +18,7 @@ https://www.archivematica.org/en/docs/archivematica-1.4/user-manual/transfer/imp
 
 Your metadata.csv should contain pbcore elements in the first row<br>
 http://pbcore.org/elements/<br>
-example: pbcore.title,pbcore.subject,etc<br>
+<pre><code>example: pbcore.title,pbcore.subject,etc</code></pre>
 
 
 <h2>Limitations</h2>
